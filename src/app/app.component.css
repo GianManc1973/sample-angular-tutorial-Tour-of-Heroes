@@ -21,6 +21,7 @@ body, input[type="text"], button {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/*css immagine*/
 .thick-red-border {
   border-color: red;
   border-width: 10px;
@@ -30,6 +31,26 @@ body, input[type="text"], button {
 
 .smaller-image {
   width: 256px;
+}
+/*fine css immagine*/
+
+nav a {
+  padding: 1rem;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #e8e8e8;
+  color: #3d3d3d;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  color: white;
+  background-color: #42545C;
+  text-transform: uppercase;
+}
+nav a.active {
+  background-color: black;
 }
 /*
 Copyright Google LLC. All Rights Reserved.
